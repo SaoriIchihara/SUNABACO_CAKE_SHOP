@@ -114,6 +114,11 @@ header ul {
     justify-content: center;
     align-items: center;
 }
+#mainVisual h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color:  rgba(243, 237, 229, 0.725);
+}
 
 /* インフォは住所と地図、アバウトセクションと同じCSSなので一緒にいれてる */
 #about,
@@ -158,6 +163,13 @@ header ul {
 #faq p{
     text-align: left;
     padding: 10px 30px;
+}
+footer{
+    background-color: antiquewhite;
+    height: 60px;
+    line-height: 60px;
+
+
 }
 
 /* 何枚もスタイルシート書かずに変えたい部分だけレスポンシブの方が効率いい！ */
