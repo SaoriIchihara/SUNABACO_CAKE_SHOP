@@ -174,9 +174,7 @@ footer{
 
 /* 何枚もスタイルシート書かずに変えたい部分だけレスポンシブの方が効率いい！ */
 @media screen and (max-width:478px){
-    body{
-        background-color: blue;
-    }
+    
     #about,#info{
         flex-direction: column
     }
